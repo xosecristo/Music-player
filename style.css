@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('//fonts.cdnfonts.com/css/akira-expanded');
 
 *{
     box-sizing: border-box;
@@ -14,17 +15,24 @@ body{
     flex-direction: column;
     justify-content: center;
 
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
         0deg, 
         #fff, 
         rgba(255, 199, 232, 0.5)
-    );
+    ); */
+
+    background-image: url("img/bg.png");
+}
+
+h1{
+    color: #fff;
+    font-family: 'Akira Expanded', sans-serif;
 }
 
 .music-container{
     border-radius: 15px;
     background-color:#fff;
-    box-shadow: 0 20px 20px 0 rgb(255, 174, 219, 0.6);
+    box-shadow: 0 20px 20px 0 #fb9da63f;
 
     z-index: 10;
     display: flex;
@@ -89,7 +97,7 @@ body{
 .action-btn {
     border:0;
     font-size: 20px;
-    color:#dfdbdf;
+    color:#fb9da7;
     background-color: #fff;
     
     padding: 10px;
@@ -99,7 +107,7 @@ body{
 }
 
 .action-btn-big{
-    color:#cac9ca;
+    color:#fb9da7;
     font-size: 30px;
 }
 
@@ -124,6 +132,7 @@ body{
 }
 
 .music-info h4{
+    color: #fff;
     margin: 0;
 }
 
